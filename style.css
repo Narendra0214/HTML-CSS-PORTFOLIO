@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(84, 4, 159);
+    color: white; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* HEADER */
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(96, 0, 186);
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0px 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    color: #fe0b0b;
+    font-size: 1.05rem;
+}
+
+.left{
+    font-family: lucida handwriting;
+    font-size: 1.5rem;
+}
+
+/* MAIN */
+
+main hr {
+    border: 0px;
+    background-color: rgb(16, 1, 30);
+    height: 5px;
+    margin: 60px 85px;
+}
+
+/* FIRST-SECTION */
+
+
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 130px ;
+    height: 45vh;
+}
+
+.firstSection > div{
+    width: 30%;
+}
+
+.leftSection{
+    font-family: papyrus;
+    font-size: 2rem;
+}
+
+.rightSection img{
+    width: 80%;
+}
+
+.name_color{
+    color: #fe0b0b;
+}
+
+/* SECOND-SECTION */
+
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+/* .textWhite{
+    color: white;
+} */
+
+.secondSection h1{
+    font-size: 2rem;
+}
+
+.secondSection .box{
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    margin: 58px 0;
+    display: flex;
+}
+
+.secondSection .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 120px;
+}
+
+.imageTop{
+    position: relative;
+    width: 25px;
+    top: -38px;
+    left: -11px;
+
+}
+
+.verticalTitle{
+    position: relative;
+    top: 75px;
+    width: 150px;
+}
+
+.verticalDesc{
+    position: relative;
+    top: 100px;
+    width: 150px;
+    font-size: 13px;
+    
+}
+
+/* FOOTER */
+
+footer{
+    background-color: rgb(70, 11, 125);
+}
+
+.footer{
+    display: flex;
+    padding: 25px 140px;
+    justify-content: space-evenly;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer > div{
+    width: 225px;
+}
+
+/* COPYRIGHT */
+
+footer .copyright{
+    text-align: center;
+    padding: 12px 0;
+}
